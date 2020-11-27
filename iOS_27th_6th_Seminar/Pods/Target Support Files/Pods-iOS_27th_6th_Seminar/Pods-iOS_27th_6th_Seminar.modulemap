@@ -1,0 +1,6 @@
+framework module Pods_iOS_27th_6th_Seminar {
+  umbrella header "Pods-iOS_27th_6th_Seminar-umbrella.h"
+
+  export *
+  module * { export * }
+}
