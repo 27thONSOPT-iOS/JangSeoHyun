@@ -2,11 +2,11 @@
 //  HeaderCell.swift
 //  ZARA
 //
-//  Created by 장서현 on 2020/12/04.
+//  Created by 장서현 on 2020/12/16.
 //
 
 import UIKit
 
-class HeaderCell: UICollectionViewCell {
-    static let identifier = "HeaderCell"
+class HeaderCell: UICollectionReusableView {
+        static let identifier = "HeaderCell"
 }

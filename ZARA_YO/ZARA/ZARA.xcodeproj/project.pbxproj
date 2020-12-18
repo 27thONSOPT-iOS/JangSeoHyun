@@ -12,13 +12,16 @@
 		0E37358525629A0A00707A03 /* HwanghoMainCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E37358425629A0A00707A03 /* HwanghoMainCVCell.swift */; };
 		0E61409D255FCF7300AE23D9 /* HwanghoMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E61409C255FCF7300AE23D9 /* HwanghoMainVC.swift */; };
 		0E6140A42560F69000AE23D9 /* HwanghoMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6140A32560F69000AE23D9 /* HwanghoMenuVC.swift */; };
-		922481742577E0800044AF1C /* mainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922481732577E0800044AF1C /* mainVC.swift */; };
+		45BD444D0E7150436285CA0D /* Pods_ZARA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2F91CCD77918F01A440C68 /* Pods_ZARA.framework */; };
+		9235B22225892EE900FE22F3 /* SeohyunMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9235B22125892EE900FE22F3 /* SeohyunMainVC.swift */; };
+		9235B2272589366F00FE22F3 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9235B2262589366F00FE22F3 /* ItemCell.swift */; };
+		9235B22A25894FF200FE22F3 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9235B22925894FF100FE22F3 /* HeaderCell.swift */; };
+		9235B22E2589FCA200FE22F3 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9235B22D2589FCA200FE22F3 /* APIConstants.swift */; };
+		9235B2342589FEF000FE22F3 /* ProductData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9235B2332589FEF000FE22F3 /* ProductData.swift */; };
+		9235B2372589FFB800FE22F3 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9235B2362589FFB800FE22F3 /* NetworkResult.swift */; };
+		9235B23F258C8EC400FE22F3 /* GenericResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9235B23E258C8EC400FE22F3 /* GenericResponse.swift */; };
+		9235B242258C940200FE22F3 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9235B241258C940200FE22F3 /* AuthService.swift */; };
 		92C9629E257A1CB70064743D /* menuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C9629D257A1CB70064743D /* menuVC.swift */; };
-		92C962BA257A342D0064743D /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C962B9257A342D0064743D /* HeaderCell.swift */; };
-		92C962BE257A34BF0064743D /* ItemCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C962BD257A34BF0064743D /* ItemCell1.swift */; };
-		92C962C1257A34F50064743D /* ItemCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C962C0257A34F50064743D /* ItemCell2.swift */; };
-		92C962C4257A3A9F0064743D /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C962C3257A3A9F0064743D /* Product.swift */; };
-		B5114FEA7FD04E86AE06EF91 /* Pods_ZARA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1E3F848C3CA0886A92A9E5 /* Pods_ZARA.framework */; };
 		F237F85F255F9C8200527BBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F237F85E255F9C8200527BBA /* AppDelegate.swift */; };
 		F237F861255F9C8200527BBA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F237F860255F9C8200527BBA /* SceneDelegate.swift */; };
 		F237F863255F9C8200527BBA /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F237F862255F9C8200527BBA /* MainVC.swift */; };
@@ -36,19 +39,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		01B96CC55F323BF03A53C457 /* Pods-ZARA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZARA.release.xcconfig"; path = "Target Support Files/Pods-ZARA/Pods-ZARA.release.xcconfig"; sourceTree = "<group>"; };
 		0E3735792562996E00707A03 /* HwanghoMainCVHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HwanghoMainCVHeaderCell.swift; sourceTree = "<group>"; };
 		0E373581256299D800707A03 /* information.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = information.swift; sourceTree = "<group>"; };
 		0E37358425629A0A00707A03 /* HwanghoMainCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HwanghoMainCVCell.swift; sourceTree = "<group>"; };
 		0E61409C255FCF7300AE23D9 /* HwanghoMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HwanghoMainVC.swift; sourceTree = "<group>"; };
 		0E6140A32560F69000AE23D9 /* HwanghoMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HwanghoMenuVC.swift; sourceTree = "<group>"; };
-		4C09DB83B18CC98463070A0E /* Pods-ZARA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZARA.debug.xcconfig"; path = "Target Support Files/Pods-ZARA/Pods-ZARA.debug.xcconfig"; sourceTree = "<group>"; };
-		922481732577E0800044AF1C /* mainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainVC.swift; sourceTree = "<group>"; };
+		2BF1DB73693991954513AB1E /* Pods-ZARA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZARA.release.xcconfig"; path = "Target Support Files/Pods-ZARA/Pods-ZARA.release.xcconfig"; sourceTree = "<group>"; };
+		4E0E76BE5791C98E121D681D /* Pods-ZARA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZARA.debug.xcconfig"; path = "Target Support Files/Pods-ZARA/Pods-ZARA.debug.xcconfig"; sourceTree = "<group>"; };
+		9235B22125892EE900FE22F3 /* SeohyunMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeohyunMainVC.swift; sourceTree = "<group>"; };
+		9235B2262589366F00FE22F3 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		9235B22925894FF100FE22F3 /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		9235B22D2589FCA200FE22F3 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		9235B2332589FEF000FE22F3 /* ProductData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductData.swift; sourceTree = "<group>"; };
+		9235B2362589FFB800FE22F3 /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		9235B23E258C8EC400FE22F3 /* GenericResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericResponse.swift; sourceTree = "<group>"; };
+		9235B241258C940200FE22F3 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		92C9629D257A1CB70064743D /* menuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuVC.swift; sourceTree = "<group>"; };
-		92C962B9257A342D0064743D /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
-		92C962BD257A34BF0064743D /* ItemCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell1.swift; sourceTree = "<group>"; };
-		92C962C0257A34F50064743D /* ItemCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell2.swift; sourceTree = "<group>"; };
-		92C962C3257A3A9F0064743D /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		F237F85B255F9C8200527BBA /* ZARA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZARA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F237F85E255F9C8200527BBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F237F860255F9C8200527BBA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,7 +71,7 @@
 		F2F71304255FCF5800EAEA1A /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		F2F783522570CD85005E4B76 /* MainNavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavVC.swift; sourceTree = "<group>"; };
 		F2F783552570DFBE005E4B76 /* MenuTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTVCell.swift; sourceTree = "<group>"; };
-		FA1E3F848C3CA0886A92A9E5 /* Pods_ZARA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZARA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2F91CCD77918F01A440C68 /* Pods_ZARA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZARA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5114FEA7FD04E86AE06EF91 /* Pods_ZARA.framework in Frameworks */,
+				45BD444D0E7150436285CA0D /* Pods_ZARA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,14 +130,6 @@
 			path = Informations;
 			sourceTree = "<group>";
 		};
-		16C070BDC1478B2216B65234 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				FA1E3F848C3CA0886A92A9E5 /* Pods_ZARA.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		9224816B2577873A0044AF1C /* Menu */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,18 +141,28 @@
 		9224816D2577DF780044AF1C /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				922481732577E0800044AF1C /* mainVC.swift */,
-				92C962C3257A3A9F0064743D /* Product.swift */,
+				9235B22125892EE900FE22F3 /* SeohyunMainVC.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		9235B22C2589FC8400FE22F3 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				9235B22D2589FCA200FE22F3 /* APIConstants.swift */,
+				9235B2332589FEF000FE22F3 /* ProductData.swift */,
+				9235B2362589FFB800FE22F3 /* NetworkResult.swift */,
+				9235B23E258C8EC400FE22F3 /* GenericResponse.swift */,
+				9235B241258C940200FE22F3 /* AuthService.swift */,
+			);
+			path = Server;
 			sourceTree = "<group>";
 		};
 		92C962B8257A341C0064743D /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				92C962B9257A342D0064743D /* HeaderCell.swift */,
-				92C962BD257A34BF0064743D /* ItemCell1.swift */,
-				92C962C0257A34F50064743D /* ItemCell2.swift */,
+				9235B2262589366F00FE22F3 /* ItemCell.swift */,
+				9235B22925894FF100FE22F3 /* HeaderCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -162,10 +170,18 @@
 		BA6DB1C48483870C605EA8DF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4C09DB83B18CC98463070A0E /* Pods-ZARA.debug.xcconfig */,
-				01B96CC55F323BF03A53C457 /* Pods-ZARA.release.xcconfig */,
+				4E0E76BE5791C98E121D681D /* Pods-ZARA.debug.xcconfig */,
+				2BF1DB73693991954513AB1E /* Pods-ZARA.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D53AEFF2AE88791B019BB1C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA2F91CCD77918F01A440C68 /* Pods_ZARA.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		F22BCBA12570B428005C2015 /* ViewControllers */ = {
@@ -183,7 +199,7 @@
 				F237F85D255F9C8200527BBA /* ZARA */,
 				F237F85C255F9C8200527BBA /* Products */,
 				BA6DB1C48483870C605EA8DF /* Pods */,
-				16C070BDC1478B2216B65234 /* Frameworks */,
+				D53AEFF2AE88791B019BB1C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -238,6 +254,7 @@
 		F2C502CB255FC783008432F7 /* Seohyun */ = {
 			isa = PBXGroup;
 			children = (
+				9235B22C2589FC8400FE22F3 /* Server */,
 				92C962B8257A341C0064743D /* Cell */,
 				9224816D2577DF780044AF1C /* Main */,
 				9224816B2577873A0044AF1C /* Menu */,
@@ -307,11 +324,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F237F86F255F9C8300527BBA /* Build configuration list for PBXNativeTarget "ZARA" */;
 			buildPhases = (
-				155E5ECC95311A1972E19956 /* [CP] Check Pods Manifest.lock */,
+				55A0A60A96C4702AFAE6BC65 /* [CP] Check Pods Manifest.lock */,
 				F237F857255F9C8200527BBA /* Sources */,
 				F237F858255F9C8200527BBA /* Frameworks */,
 				F237F859255F9C8200527BBA /* Resources */,
-				606C1858CAAA7D62D0FC7B15 /* [CP] Embed Pods Frameworks */,
+				52D616B39840C94B6BADEE88 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -371,7 +388,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		155E5ECC95311A1972E19956 /* [CP] Check Pods Manifest.lock */ = {
+		52D616B39840C94B6BADEE88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZARA/Pods-ZARA-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZARA/Pods-ZARA-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZARA/Pods-ZARA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55A0A60A96C4702AFAE6BC65 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -393,23 +427,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		606C1858CAAA7D62D0FC7B15 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZARA/Pods-ZARA-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZARA/Pods-ZARA-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZARA/Pods-ZARA-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -418,24 +435,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E61409D255FCF7300AE23D9 /* HwanghoMainVC.swift in Sources */,
+				9235B2342589FEF000FE22F3 /* ProductData.swift in Sources */,
 				F237F863255F9C8200527BBA /* MainVC.swift in Sources */,
-				92C962BE257A34BF0064743D /* ItemCell1.swift in Sources */,
-				922481742577E0800044AF1C /* mainVC.swift in Sources */,
+				9235B2272589366F00FE22F3 /* ItemCell.swift in Sources */,
 				F237F863255F9C8200527BBA /* MainVC.swift in Sources */,
 				F2F71305255FCF5800EAEA1A /* MenuVC.swift in Sources */,
+				9235B23F258C8EC400FE22F3 /* GenericResponse.swift in Sources */,
+				9235B2372589FFB800FE22F3 /* NetworkResult.swift in Sources */,
 				92C9629E257A1CB70064743D /* menuVC.swift in Sources */,
+				9235B22225892EE900FE22F3 /* SeohyunMainVC.swift in Sources */,
 				F2F783562570DFBE005E4B76 /* MenuTVCell.swift in Sources */,
+				9235B22A25894FF200FE22F3 /* HeaderCell.swift in Sources */,
 				F2F783532570CD85005E4B76 /* MainNavVC.swift in Sources */,
 				F237F85F255F9C8200527BBA /* AppDelegate.swift in Sources */,
+				9235B242258C940200FE22F3 /* AuthService.swift in Sources */,
 				0E373582256299D800707A03 /* information.swift in Sources */,
 				0E37358525629A0A00707A03 /* HwanghoMainCVCell.swift in Sources */,
 				0E37357A2562996E00707A03 /* HwanghoMainCVHeaderCell.swift in Sources */,
 				0E6140A42560F69000AE23D9 /* HwanghoMenuVC.swift in Sources */,
+				9235B22E2589FCA200FE22F3 /* APIConstants.swift in Sources */,
 				F237F861255F9C8200527BBA /* SceneDelegate.swift in Sources */,
 				F2C397652570A6F400CBB190 /* ClothesCVHeader.swift in Sources */,
-				92C962C1257A34F50064743D /* ItemCell2.swift in Sources */,
-				92C962C4257A3A9F0064743D /* Product.swift in Sources */,
-				92C962BA257A342D0064743D /* HeaderCell.swift in Sources */,
 				F2C397622570A62500CBB190 /* ClothesCVCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -580,7 +600,7 @@
 		};
 		F237F870255F9C8300527BBA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C09DB83B18CC98463070A0E /* Pods-ZARA.debug.xcconfig */;
+			baseConfigurationReference = 4E0E76BE5791C98E121D681D /* Pods-ZARA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -600,7 +620,7 @@
 		};
 		F237F871255F9C8300527BBA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01B96CC55F323BF03A53C457 /* Pods-ZARA.release.xcconfig */;
+			baseConfigurationReference = 2BF1DB73693991954513AB1E /* Pods-ZARA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
